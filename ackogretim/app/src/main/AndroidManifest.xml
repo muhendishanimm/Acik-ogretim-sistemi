@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ackogretim">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ogrencisonuc"></activity>
+        <activity android:name=".ogrencisonuclar" />
+        <activity android:name=".anasayfaogrenci" />
+        <activity android:name=".ogrencisinavbilgileri" />
+        <activity android:name=".Sinavdansorusil" />
+        <activity android:name=".eklenensorularlistesi" />
+        <activity android:name=".zorlukpuanlama" />
+        <activity android:name=".sinavislemleri" />
+        <activity android:name=".sinavlistesii" />
+        <activity android:name=".hatalisorularr" />
+        <activity android:name=".sinavasoruekle" />
+        <activity android:name=".hatalisoru" />
+        <activity android:name=".ogrencianasayfa" />
+        <activity android:name=".sinavsorulistesi" />
+        <activity android:name=".soruekleme" />
+        <activity android:name=".sinavolustur" />
+        <activity android:name=".soruislemler" />
+        <activity android:name=".ogretmenanasayfa" />
+        <activity android:name=".SoruListeleme" />
+        <activity android:name=".ogretmengiris" />
+        <activity android:name=".ogrencigiris" />
+        <activity android:name=".ogrenci" />
+        <activity android:name=".ogretmen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
